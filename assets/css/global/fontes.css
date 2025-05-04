@@ -1,0 +1,9 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/assets/fonts/Malinton-SemiBold.otf') format('woff2'),
+         url('/fonts/Malinton-Regular.otf') format('woff');
+}

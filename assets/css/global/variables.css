@@ -1,0 +1,12 @@
+:root{
+    --cor-principal: #1A5EF3;
+    --cor-preto: #141414;
+    --cor-branco: #f2f2f2;
+    --fundo: #fefefe;
+    --cinza: #e0e0e0;
+
+    --corpo-texto:24px;
+
+    --fonte-principal:"Poppins", sans-serif;
+    --fonte-title:'MinhaFonte', sans-serif;
+}

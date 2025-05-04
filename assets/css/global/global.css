@@ -1,0 +1,8 @@
+@import "/assets/css/global/elements.css";
+@import "/assets/css/global/fontes.css";
+@import "/assets/css/global/normalize.css";
+@import "/assets/css/global/variables.css";
+
+body{
+    background: var(--fundo);
+}
