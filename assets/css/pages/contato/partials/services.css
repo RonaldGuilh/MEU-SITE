@@ -11,32 +11,25 @@
 }
 
 .nav-services{
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    padding: 11px 69px;
-
     background: var(--cinza);
-    width: 640px;
+    padding: 13px 0px 11px 0px;
     border-radius: 100px;
 }
 
-.nav-services li a{
+.nav-services a{
     text-decoration: none;
-    font-family: var(--fonte-principal);
     color: var(--cor-preto);
-    font-size: 1rem;
-    font-weight: 500;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 11px 69px;
 }
 
-.nav-services .ativo{
+.nav-services a.ativo{
     color: var(--cor-branco);
     background: var(--cor-preto);
-    padding: 11px 69px;
     border-radius: 100px;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 .info-services{

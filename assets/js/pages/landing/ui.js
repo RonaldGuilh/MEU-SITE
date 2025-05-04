@@ -10,3 +10,18 @@ function toggleMenu(){
 
 toggleMenu();
 
+function menuServices(){
+  const menuAtivo = document.querySelectorAll(".nav-services a");
+
+  menuAtivo.forEach(ativo => {
+    ativo.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      menuAtivo.forEach(l => l.classList.remove('ativo'));
+
+      ativo.classList.add('ativo');
+    })
+  })
+}
+
+menuServices();
