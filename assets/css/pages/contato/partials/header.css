@@ -3,10 +3,12 @@ li{
 }
 
 .site-header{
+    position: fixed;
     align-items: center;
     background-color: var(--cor-preto);
     height: 100px;
     width: 100%;
+    z-index: 100;
 }
 
 .container{
