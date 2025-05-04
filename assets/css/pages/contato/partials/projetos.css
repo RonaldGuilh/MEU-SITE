@@ -1,0 +1,44 @@
+.projetos{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.grade-projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.projeto1{
+    width: 714px;
+    height: 560px;
+    background: var(--cor-principal);
+    z-index: 98;
+    border-radius: 8px;
+}
+
+.projeto1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    z-index: 90;
+}
+
+.button-services{
+    width: fit-content;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-services p{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    text-decoration: underline;
+}

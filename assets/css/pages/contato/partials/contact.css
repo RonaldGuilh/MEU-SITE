@@ -1,0 +1,48 @@
+.contact-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 135px;
+    margin-top: 104px;
+}
+
+.contact-area h2{
+    font-family: var(--fonte-title);
+    font-size: 4.5rem;
+    line-height: 96px;
+    color: var(--cor-principal);
+    z-index: 99;
+}
+
+.inputs-contact{
+    display: grid;
+    gap: 12px;
+}
+
+input{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    width: 636px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 3px solid var(--cinza-input);
+    background-color: rgba(198, 198, 198, 0.4);
+}
+
+input:focus{
+    border-color: var(--input-selected);
+    outline: none;
+}
+
+.send-email{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    width: 672px;
+    padding:14px 16px;
+    background: var(--cor-principal);
+    color: var(--cor-branco);
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.footer{
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.footer p{
+    font-family: var(--fonte-principal);
+    font-size: 1.125rem;
+    color: var(--cor-preto);
+}
+
+.footer a{
+    font-family: var(--fonte-principal);
+    font-size: 1.125rem;
+    color: var(--cor-preto);
+    text-decoration: none;
+}
