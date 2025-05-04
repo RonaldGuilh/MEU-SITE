@@ -25,3 +25,22 @@ function menuServices(){
 }
 
 menuServices();
+
+/* Select service ⬎ */
+
+const tabNav = document.querySelectorAll(".js-tabnav li");
+const tabContent = document.querySelectorAll(".js-tabcontent section");
+tabContent[0].classList.add('ativo')
+
+function activeTab(index){
+  tabContent.forEach((content) => {
+    content.classList.remove('ativo')
+  })
+  tabContent[index].classList.add('ativo');
+}
+
+tabNav.forEach((itemNav, index) => {
+  itemNav.addEventListener('click', () => {
+    activeTab(index);
+  })
+})
