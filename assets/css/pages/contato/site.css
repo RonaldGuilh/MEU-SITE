@@ -1,5 +1,5 @@
-@import url("/assets/css/pages/contato/partials/header.css");
-@import url("/assets/css/pages/contato/partials/main.css");
+@import url("./partials/header.css");
+@import url("./partials/main.css");
 @import url("/assets/css/pages/contato/partials/carroussel.css");
 @import url("/assets/css/pages/contato/partials/services.css");
 @import url("/assets/css/pages/contato/partials/projetos.css");
