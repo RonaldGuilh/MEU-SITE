@@ -1,7 +1,7 @@
-@import url("/assets/css/global/elements.css");
-@import url("/assets/css/global/fontes.css");
-@import url("/assets/css/global/normalize.css");
-@import url("/assets/css/global/variables.css");
+@import url("./elements.css");
+@import url("./fontes.css");
+@import url("./normalize.css");
+@import url("./variables.css");
 
 body{
     background: var(--fundo);
